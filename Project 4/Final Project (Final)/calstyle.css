@@ -1,0 +1,55 @@
+ul {list-style-type: none;}
+body {font-family: Verdana, sans-serif;}
+
+/* Month header */
+.calender_section  {
+    padding: 70px 0;
+    width: 100%;
+    background: #1abc9c;
+    text-align: center;
+    margin: 0;
+}
+
+/* Month list */
+.calender_section ul {
+    margin: 0;
+    padding: 0;
+}
+
+.calender_section ul li {
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+/* Weekdays (Mon-Sun) */
+.weekday {
+    margin: 0;
+    padding: 10px 0;
+    background-color:#ddd;
+}
+
+.weekday li {
+    display: inline-block;
+    width: 13.6%;
+    color: #666;
+    text-align: right;
+}
+
+/* Days (1-31) */
+.date {
+    padding: 10px 0;
+    background: #eee;
+    margin: 0;
+}
+
+.date li {
+    list-style-type: none;
+    display: inline-block;
+    width: 13.6%;
+    text-align: right;
+    margin-bottom: 100px;
+    font-size:15px;
+    color:#777;
+}
