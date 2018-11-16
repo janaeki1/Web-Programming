@@ -1,0 +1,24 @@
+<?xml version = "1.0"?>
+<!DOCTYPE html PUBLIC "-//w3c//DTD XHTML 1.1//EN"
+"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+
+<html xmlns = "http://www.w3.org/1999/xhtml">
+	<head>
+		<title>Add/Delete Row/Column</title>
+		<script type="text/javascript" src="Add-Delete-Row-Column_HTMLwithJavaScript.js"></script>
+	</head>
+	<body>
+		<h1> Add/Delete Row/Column </h1>
+		<p id="tableID">
+		<input type = "button" value = "Add Row" id = "addRow" onclick = "appendRow()">
+		<input type = "button" value = "Add Column" id = "addCol" onclick = "appendColumn()">
+		<input type = "button" value = "Delete Row" id = "delRow" onclick = "deleteAllRows()">
+		<input type = "button" value = "Delete Column" id = "delCol" onclick = "deleteAllColumns()">
+		</p>
+		<table id='my-table'  border="1">
+			<tr>
+				<td>0</td>
+			</tr>
+		</table>
+	</body>
+</html>

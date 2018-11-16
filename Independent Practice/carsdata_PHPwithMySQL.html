@@ -1,0 +1,25 @@
+<?xml version = "1.0"?>
+<!DOCTYPE html PUBLIC "-//w3c//DTD XHTML 1.1//EN"
+"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+
+<!--Uses a form to collect a query against the cars database.
+	Calls the PHP script and access_cars.php to perform the given query
+	and display the results
+	-->
+<html xmlns = "http://www.w3.org/1999/xhtml">
+	<head>
+		<title>Access to the Cars Database</title>
+	</head>
+	<body>
+		<p>
+			Please enter your query:
+			<br />
+			<form action = "http://localhost/Examples_CSC4370_WebProgramming/access_cars_PHPwithMySQL.php" method = "post">
+				<textarea rows = "2" cols = "80" name = "query"></textarea>
+				<br /><br />
+				<input type = "reset" value = "Reset"/>
+				<input type = "submit" value = "Submit Request"/>
+			</form>
+		</p>
+	</body>
+</html>

@@ -1,0 +1,47 @@
+<?xml version = "1.0"?>
+<!DOCTYPE html PUBLIC "-//w3c//DTD XHTML 1.1//EN"
+"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+
+<!-- validator.html
+	A document for validator.js
+	Creates text boxes for a name and a phone number
+	-->
+<html xmlns = "http://www.w3.org/1999/xhtml">
+	<head>
+		<title>Illustrate Form Input Validation</title>
+		<script type = "text/javascript" src = "validator.js">
+		</script>
+	</head>
+	<body>
+		<h3> Customer Information </h3>
+		<form action = "">
+			<p>
+				<label>
+					<input type = "text" id = "custName" />
+					Name (Last Name, First Name, Middle Initial)
+				</label>
+				<br /><br />
+			
+				<label>
+					<input type = "text" id = "phone" />
+					Phone Number (ddd-ddd-dddd)
+				</label>
+				<br /><br />
+			
+				<input type = "reset" id = "reset" />
+			
+				<input type = "submit" id = "submit" />
+			</p>
+		</form>
+		
+	<!-- An inline script for the event handler registrations -->
+		<script type = "text/javascript">
+		<!--
+	// Set form element object properties to their corresponding
+	// event handler functions
+			document.getElementById("custName").onchange = chkName;
+			document.getElementById("phone").onchange = chkPhone;
+			//-->
+		</script>
+	</body>
+</html>

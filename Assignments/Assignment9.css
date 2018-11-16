@@ -1,0 +1,45 @@
+/*This style sheet is used to format Assignment9.xml*/
+
+CHART {
+	text-align: center;
+	background-color: BurlyWood;
+}
+ENTRY {
+	
+	display: block;
+    margin-bottom: 20pt;
+}
+TITLE {
+	display: block;
+	text-decoration: underline;
+	text-shadow: 2px 1px blue;
+    color: red;
+	font-family: 'Lucida Console';
+    font-size: 25pt;
+	font-style: italic;
+}
+ARTIST {
+	display: block;
+    text-transform: uppercase;
+    color: blue;
+	font-family: 'Helvetica';
+    font-size: 20pt;
+}
+ALBUM {
+	display: block;
+	color: red;
+	font-weight: bold;
+	font-family: 'Arial Black';
+	font-size: 15pt;
+}
+POSITION {
+	color: blue;
+}
+RANK {
+	display: block;
+	font-weight: bold;
+	font-size: 15pt;
+}
+LAST_WEEK {
+	display: block;
+}

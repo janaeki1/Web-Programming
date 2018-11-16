@@ -1,0 +1,29 @@
+<?xml version = "1.0"?>
+<!DOCTYPE html PUBLIC "-//w3c//DTD XHTML 1.1//EN"
+"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+
+<html xmlns = "http://www.w3.org/1999/xhtml">
+	<head>
+		<title>Create Table Dynamically</title>
+		<style>input{width:150px; height:35px}</style>
+	</head> 
+		<body>
+			<form action = "http://localhost/myprojects/DynamicTablePHP.php" method="post">
+				<table border="1" width="350px">
+					<tr>
+						<td>Enter number of Rows</td>
+						<td><input type="text" name="r"/></td>
+					</tr>
+					<tr>
+						<td>Enter number of Columns</td>
+						<td><input type="text" name="c"/></td>
+					</tr>
+					<tr>
+						<td colspan="2" align="center">
+							<input type="submit" value="Create Table" name="create"/>
+						</td>
+					</tr>
+				</table>
+			</form>
+		</body>
+</html>

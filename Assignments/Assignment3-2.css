@@ -1,0 +1,20 @@
+/*This style sheet is used for Assignment3-2.html*/
+h1{
+	text-decoration: underline;
+	color: blue;
+	font-family: 'Courier New';
+	font-size: 25pt;
+  }
+h3{
+	font-family: 'Helvetica';
+	font-style: italic;
+	font-size: 18pt;
+	color: red;
+  }
+ol{
+	font-size: 15pt;
+	color: brown
+  }
+p{
+	font-weight: bold
+ }
